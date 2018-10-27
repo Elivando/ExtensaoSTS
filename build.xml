@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="AtividadeComplementarSTS-bkp" default="bkp" basedir=".">
+<project name="ExtensaoSTS-bkp" default="bkp" basedir=".">
 	<property name="projeto" value="${ant.project.name}" />
 	<property name="bkp-dir" value="/servidor-bkp/fontes/" />
 	<property name="diretorio-para-zipar" value="src" />
