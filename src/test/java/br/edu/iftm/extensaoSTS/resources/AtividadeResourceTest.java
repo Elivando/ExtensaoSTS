@@ -39,7 +39,7 @@ public class AtividadeResourceTest {
 	@Test
 	public void testaId() throws Exception {
 		this.mvc.perform(get(uri + "1")).andExpect(status().isOk())
-				.andExpect(jsonPath("nome", is("Visita Técnica GDG 2018")));
+				.andExpect(jsonPath("nome", is("Visita Tecnica GDG 2018")));
 	}
 
 	@Test
